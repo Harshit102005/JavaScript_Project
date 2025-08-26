@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-color: rgb(52, 194, 52);
+}
+
+.bat {
+  /* background-color: white; */
+  background-image: url("bat.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  /* padding: 10px; */
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 0px 10px black;
+  margin: 5% 10%;
+}
+
+.ball {
+  /* background-color: rgb(247, 8, 8); */
+  background-image: url("ball.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  /* padding: 10px; */
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 0px 10px black;
+  margin: 5% 10%;
+}
+
+.stump {
+  /* background-color: rgb(190, 212, 130); */
+  background-image: url("stump.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  /* padding: 10px; */
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 0px 10px black;
+  margin: 5% 10%;
+}
+
+#score
+{
+  color: red;
+  text-shadow: 0px 0px 5px rgb(36, 61, 65);
+  background-color: rgb(211, 209, 209);
+}

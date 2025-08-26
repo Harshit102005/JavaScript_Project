@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cricket</title>
+  <link rel="stylesheet" href="cricket.css">
+</head>
+
+<body>
+  <h1>Bat🏏 Ball⚾ Stump\|/ Game</h1>
+
+  <button class="bat" onclick=" let computerChoice = generateComputerChoise();
+  let resultMsg = getResult('Bat', computerChoice);
+  showResult('Bat',computerChoice, resultMsg);"></button>
+ 
+
+  <button class="ball" onclick=" computerChoice = generateComputerChoise();
+  resultMsg = getResult('Ball', computerChoice);
+  showResult('Ball',computerChoice, resultMsg);"></button>
+
+
+  <button class="stump" onclick=" computerChoice = generateComputerChoise();
+  resultMsg = getResult('Stump', computerChoice);
+  showResult('Stump',computerChoice, resultMsg);"></button>
+
+  <button class="clear" onclick="localStorage.clear(); resetScore();">Reset</button>
+
+  <!-- <h1 id="Score"></h1> -->
+   <!-- <h1 id="message"></h1> -->
+
+    <h3 id="user-move"></h3>
+     <h3 id="computer-move"></h3>
+      <h3 id="result"></h3>
+       <h1 id="score"></h1>
+
+  <script src="cricket.js"></script>
+</body>
+
+</html>
+
+<!-- 🏏 
+⚾
+\|/ -->
